@@ -11,16 +11,16 @@ a {
 
 .page__main {
     /* Ảnh nền của trang đầu tiên nếu bạn muốn đổi thì đổi tại đây */
-    background-image: url("../img/background.png");
+    background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     background-size: cover;
-    background-position-y: -18rem;
+    background-position-y: cover;
 }
 .buttons {
     display: flex;
-    column-gap: 3rem;
+    column-gap: 4rem;
     padding: 2rem;
 }
 
@@ -98,7 +98,7 @@ a {
 }
 
 .btn-gallery:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: left center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
 }
